@@ -6,6 +6,7 @@
 
 .navbar  {
     background:#8C5F37;
+    text-align: center;
 }
 
 .logo{
@@ -13,13 +14,16 @@
     margin: 10px 15px;
 }
 .navbar-menu{
+    display:flex ;
     justify-content: center;
-    padding-top: 50px;
-    
+    margin: 0 auto;
+    width: 100%;
+   
 }
 .navbar ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -27,22 +31,27 @@
     background:#593825 ;
     border-radius: 5px;
     height:30px;
-    padding:0 20px;
+    text-align: center;
     margin-left: 20px;
-    width:100%;
+    margin-top: 5px;
+    width: 100px;
 
 }
 .navbar li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 20px;
+    border-width: 2px;
+    letter-spacing: 1px;
 }
 
-.navbar li :hover{
-    color:#593825 ;
+.navbar li:hover{
     background: white;
+    border-radius: 5px solid #593825;
 }
-
+.navbar a:hover{
+    color: #593825;
+}
 .conteudo {
     background-color: #A6826D;
     width: 100%;
@@ -52,20 +61,19 @@
     padding: 20px;
 }
 .conteudo-principal-texto {
-    width: 70%;
-    margin: 0 20px;
+    width: 100%;
+    padding: 10px;
 }
 
 .conteudo-principal-texto h2{
     color:#462919 ;
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 .conteudo-principal-texto  p {
     color: white;
-    font-size: 18px;
+    font-size: 1rem;
     text-align: justify;
-    padding: 10px 30px;
 }
 
 .conteudo-principal-foto {
@@ -84,9 +92,9 @@
 
 .conteudo-principal-musica p {
     color: white;
-    font-size: 18px;
+    font-size: 1rem;
     text-align: justify;
-    padding: 10px 30px;
+    padding: 10px;
 }
 .musica-1 {
     margin: 10px 20px;
@@ -103,4 +111,5 @@ footer{
 .conteudo-principal-musica h2{
     color:#462919 ;
     font-size: 40px;
+    padding:  0 10px;
 }
