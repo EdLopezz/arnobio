@@ -75,11 +75,11 @@ footer{
 .navbar{
     display: inline-block;
     background:#593825 ;
-    width: 90%;
+    width: 100%;
     text-align: center;
 }
 .navbar-menu{
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -90,7 +90,7 @@ footer{
 }
 .navbar-menu li{
     display: inline-block;
-    width: 100px;
+    width: 80px;
     height: 25px;
     background-color: tomato;
     margin: 5px;
