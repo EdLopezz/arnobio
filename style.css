@@ -3,57 +3,13 @@
     margin: 0;
     padding: 0;
 }
-
-.navbar  {
-    background:#8C5F37;
-    text-align: center;
-    width: 100%;
-    justify-content: center;
-}
-
 .logo{
     width: 120px;
     margin: 10px 15px;
 }
-.navbar-menu{
-    display:flex ;
-    justify-content: center;
-    margin: 0 auto;
-    width: 80%;
-   
-}
-.navbar ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom:8px;
-    justify-content: space-evenly;
 
-}
 
-.navbar li {
-    background:#593825 ;
-    border-radius: 5px;
-    height:30px;
-    text-align: center;
-    margin: 0 5px;
-    margin-top: 5px;
-    width: 33%;
 
-}
-.navbar li a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.navbar li:hover{
-    background: white;
-    border-radius: 5px solid #593825;
-}
-.navbar a:hover{
-    color: #593825;
-}
 .conteudo {
     background-color: #A6826D;
     width: 100%;
@@ -114,4 +70,45 @@ footer{
     color:#462919 ;
     font-size: 40px;
     padding:  0 10px;
+}
+
+.navbar{
+    display: inline-block;
+    background:#593825 ;
+    width: 100%;
+    text-align: center;
+}
+.navbar-menu{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.lista-navbar{
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+}
+.navbar-menu li{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    background-color: tomato;
+    margin: 5px;
+    border-radius: 5px ;
+    
+}
+.itens-navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    
+}
+
+.navbar-menu li:hover{
+    background: white;
+    border: 1px solid black;
+}
+.itens-navbar a:hover{
+    font-size: 1.1em;
+    color: tomato;
 }
