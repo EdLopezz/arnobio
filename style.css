@@ -3,13 +3,48 @@
     margin: 0;
     padding: 0;
 }
+/*Header e logo*/
 .logo{
     width: 120px;
     margin: 10px 15px;
 }
 
+header{
+    text-align: center;
+    background:#593825 ;
+    padding-bottom: 8px;
+}
 
+nav{
+    display: flex;
+    justify-content: center;
+ 
+}
 
+.itens-navbar{
+    display: inline-flex;
+    box-sizing: content-box;
+    list-style: none;
+    padding: 0 1em;
+    background-color: #8C5F37;
+    border-radius: 1em;
+    border: 2px solid white;
+    
+}
+
+.itens-navbar >a{
+    text-decoration: none;
+    color: white;
+}
+
+.itens-navbar:hover{
+    background-color: white;
+}
+.itens-navbar >a:hover{
+    color: #8C5F37;
+}
+
+/*Conteúdo principal*/
 .conteudo {
     background-color: #A6826D;
     width: 100%;
@@ -57,6 +92,8 @@
 .musica-1 {
     margin: 10px 20px;
 }
+
+/*Footer*/
 footer{
     background: #593825;
 }
@@ -70,45 +107,4 @@ footer{
     color:#462919 ;
     font-size: 40px;
     padding:  0 10px;
-}
-
-.navbar{
-    display: inline-block;
-    background:#593825 ;
-    width: 100%;
-    text-align: center;
-}
-.navbar-menu{
-    width: 80%;
-    margin: 0 auto;
-}
-
-.lista-navbar{
-    display: flex;
-    justify-content:center ;
-    flex-wrap: wrap;
-}
-.navbar-menu li{
-    display: inline-block;
-    width: 80px;
-    height: 25px;
-    background-color: tomato;
-    margin: 5px;
-    border-radius: 5px ;
-    
-}
-.itens-navbar a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.2em;
-    
-}
-
-.navbar-menu li:hover{
-    background: white;
-    border: 1px solid black;
-}
-.itens-navbar a:hover{
-    font-size: 1.1em;
-    color: tomato;
 }

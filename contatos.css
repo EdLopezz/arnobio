@@ -1,0 +1,11 @@
+.conteudo h2{
+    color:#462919 ;
+    font-size: 3rem;
+    padding: 5px;
+}
+
+.redes{
+    text-align: center;
+    border: 5px solid #462919;
+    margin-bottom: 5px;
+}
